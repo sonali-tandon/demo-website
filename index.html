@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FCC: Product Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="logo.png" alt="Image logo">
+        <nav id="nav-bar">
+            <a href="#listid" class="nav-link">Features</a>
+            <a href="#video" class="nav-link">How It Works</a>
+            <a href="#pricestart" class="nav-link">Pricing</a>
+        </nav>
+        
+    </header>
+    <div id="maincontainer">
+        <h2>Handcrafted, home-made masterpieces</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+            <input type="email" id="email" name="email" placeholder="Enter your email address"><br>
+            <input type="submit" id="submit" value="GET STARTED">
+        </form>
+        <ul>
+            <li id="listid">
+                <img src="1.jpg" alt="premium logo">
+                <h3>Premium Materials</h3>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </li>
+            <li>
+                <img src="2.jpg" alt="shipping logo">
+                <h3>Fast Shipping</h3>
+                <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+            </li>
+            <li>
+                <img src="quality.jpg" alt="quality logo">
+                <h3>Quality Assurance</h3>
+                <p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+            </li>
+        </ul>
+        <iframe id="video" width="525" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc?controls=0"></iframe>
+        <div class="flex-container">
+            <div id="pricestart">
+                <header>TENOR TROMBONE</header>
+                <h3>$600</h3>
+                <p>Lorem ipsum.<br>
+                    Lorem ipsum.<br>
+                    Lorem ipsum dolor.<br>
+                    Lorem ipsum.</p>
+                <button onclick="myfunction()">SELECT</button>
+            </div>
+            <div>
+                <header>BASS TROMBONE</header>
+                <h3>$900</h3>
+                <p>Lorem ipsum.<br>
+                    Lorem ipsum.<br>
+                    Lorem ipsum dolor.<br>
+                    Lorem ipsum.</p>
+                <button onclick="myfunction()">SELECT</button>
+            </div>
+            <div>
+                <header>VALVE TROMBONE</header>
+                <h3>$1200</h3>
+                <p>Plays similar to a Trumpet<br>
+                    Great for Jazz Bands<br>
+                    Lorem ipsum dolor.<br>
+                    Lorem ipsum.</p>
+                <button onclick="myfunction()">SELECT</button>
+            </div>
+            <script>
+                function myfunction(){
+                    alert("selected");
+                }
+            </script>
+        </div>
+        <footer id="footer">
+            <nav id="end-bar">
+                <a href="#" class="end-link">Privacy</a>
+                <a href="#" class="end-link">Terms</a>
+                <a href="#" class="end-link">Contact</a>
+            <p>Copyright 2016, Original Trombones</p>
+            </nav>
+        </footer>
+    </div>
+    
+</body>
+</html>
+
